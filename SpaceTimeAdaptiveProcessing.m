@@ -165,6 +165,8 @@ ylabel('Angle')
 xlabel('Doppler')
 title('Jammer Suppression')
 
+saveas(gcf, 'stap.png')
+
 %% Space-time Chebyshev windowing 
 
 figure 
